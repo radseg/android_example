@@ -1,0 +1,9 @@
+public void menuCalendar() {
+        Calendar cal = Calendar.getInstance();
+
+        SimpleDateFormat sdf = new SimpleDateFormat("   yyyy-MM-dd");
+
+        String timeString = sdf.format(cal.getTime());
+
+        mt.setText(timeString);//set text on mt button
+    }
